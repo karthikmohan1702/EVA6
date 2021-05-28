@@ -5,7 +5,7 @@
 
 ### Snapshot:
 -------------
-![Image_snapshot](https://github.com/karthikmohan1702/EVA6/blob/55b65a212f0d32bc4b1d33d523596fcaf636027b/Session_4/Backpropagation/images/snapshot.JPG)
+![Image_snapshot](https://github.com/karthikmohan1702/EVA6/blob/33cae94115d383e90bffd14dab08fff00a768c15/Session_4/Backpropagation/images/snapshot_backprop.JPG)
 
 
 ### Network Basics

@@ -3,6 +3,11 @@
 **==> Calculating the feed forward & backpropagation manually with a given set of inputs & weights for various learning rates 0.1, 0.2, 0.5, 0.8, 1, 2 in the excel.**
 
 
+### Snapshot:
+-------------
+![Image_snapshot](https://github.com/karthikmohan1702/EVA6/blob/55b65a212f0d32bc4b1d33d523596fcaf636027b/Session_4/Backpropagation/images/snapshot.JPG)
+
+
 ### Network Basics
 --------------------------
 The below network shows the interactions of the below layers:

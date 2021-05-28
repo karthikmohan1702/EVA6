@@ -76,8 +76,6 @@ And in equations shows how the partial derivative is performed w.r.t for eg w5. 
 
 Since we have all the partial derivatives ready. Now its time to perform the gradient descent approach & update the existing weights by subtracting these partial derivatives that we have calculated in the above steps with a learning rate.
 
-**Learning rate** in the gradient descent tells us how much steps is needed to reach the global minima or less error. Here we have used learning rates like 0.1, 0.2, 0.5, 0.8, 1, 2, 8 & 20.
-
     w1 = w1 - learning_rate * dE_total/dw1
     w2 = w2 - learning_rate * dE_total/dw2
     w3 = w3 - learning_rate * dE_total/dw3
@@ -87,6 +85,8 @@ Since we have all the partial derivatives ready. Now its time to perform the gra
     w7 = w7 - learning_rate * dE_total/dw7
     w8 = w8 - learning_rate * dE_total/dw8
 
+
+**Learning rate** in the gradient descent tells us how much steps is needed to reach the global minima or less error. Here we have used learning rates like 0.1, 0.2, 0.5, 0.8, 1, 2, 8 & 20.
 
 ### Observation
 ----------

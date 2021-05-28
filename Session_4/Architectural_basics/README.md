@@ -24,7 +24,7 @@ To write a MNIST recognition neural network model considering the below rules:
 4. Random rotation to images between **-5 to +5 degrees**
 5. Added GAP followed by a **1x1** layer (Since it's applied on 1D data)
 6. Learning rate is **0.05** & momentum **0.9**
-7. Achieved Test accuracy 99.4% at epoch **13** & later gave consistently 99.4% throughout the end of the epoch.
+7. Achieved Test accuracy 99.4% at **13th Epoch & later gave consistently 99.4% throughout the end of the epoch.**
 
 ## Logs:
 --------

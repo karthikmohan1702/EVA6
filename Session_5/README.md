@@ -33,11 +33,6 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
      k     : convolution kernel size
      p     : convolution padding size
      s     : convolution stride size
-
-     Rin   : 
-     Rout  :
-     Jin   :
-     Jout  :
  
  
 | Operation | Kernel | Padding | Stride | Jin | Nin | Nout | Rin| Rout | Jout |
@@ -137,11 +132,12 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
     3) Best Test Accuracy: 99.45
 
     Analysis
-    1)	Started with 5deg rotation following on to 6 & 7, checking how it would change the train & test accuracies, 
-        6deg fitted well & yielded an accuracy closer to our expected one. The train = 98.84 & test = 99.34. 
-        since test data had few of these images which had their rotation w.r.t train dataset.
-    2)	Tweaking learning rate with LR scheduler – played around with different learning rates & used LR scheduler, 
-        by tweaking the step size was giving good results & was effective at every 5th epoch (step size) reducing the LR by 10th.
+    ========
+    1) Started with 5deg rotation following on to 6 & 7, checking how it would change the train & test accuracies, 
+       6deg fitted well & yielded an accuracy closer to our expected one. The train = 98.84 & test = 99.34. 
+       since test data had few of these images which had their rotation w.r.t train dataset.
+    2) Tweaking learning rate with LR scheduler – played around with different learning rates & used LR scheduler, 
+       by tweaking the step size was giving good results & was effective at every 5th epoch (step size) reducing the LR by 10th.
 
 
 

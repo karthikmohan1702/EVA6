@@ -40,7 +40,7 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
      Jout  :
  
  
-| Operation | Kernel | Padding | Stride | Jin | Nin | Nout | Rin  Rout | Jout |
+| Operation | Kernel | Padding | Stride | Jin | Nin | Nout | Rin| Rout | Jout |
 |-----------|--------|---------|--------|-----|-----|------|----|----- | -----|
 | CONV1     |   3    |    0    |    1   |  1  |  28 |  26  |  1 |  3   |   1  |
 | CONV2     |   3    |    0    |    1   |  1  |  26 |  24  |  3 |  5   |   1  |

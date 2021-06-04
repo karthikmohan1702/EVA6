@@ -80,31 +80,44 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
 3_Regularization_GAP_&_Max_Pool
 ------------------------------
 
-Target
-======
-1) Adding regularization – Dropout
-2) Adding GAP to reduce the 10.1k params to under 10k
-3) To increase the model capacity add layer after GAP
-4) Perform maxpooling at RF = 5
+    Target
+    ======
+    1) Adding regularization – Dropout
+    2) Adding GAP to reduce the 10.1k params to under 10k
+    3) To increase the model capacity add layer after GAP
+    4) Perform maxpooling at RF = 5
 
-Results
-=======
-1) Parameters: 9924
-2) Best Train Accuracy: 98.95
-3) Best Test Accuracy: 99.20
+    Results
+    =======
+    1) Parameters: 9924
+    2) Best Train Accuracy: 98.95
+    3) Best Test Accuracy: 99.20
 
-Analysis
-========
-1) Started with randomly placing of dropouts, but the test accuracy didn’t flinch much, so later added dropout to all the layers, 
-   noticing the significant difference in accuracies (test was getting better).
-2) Following added GAP to reduce the no. of params in the model, reduced approx. to 8k params, where the accuracy was drawn 
-   down but the gap between test & train accuracy was less but test accuracy was far from the expected one (Both train & test were closed to 98%).
-3) To increase the params, added a layer after gap to increase the efficiency of the model. 
-4) Since MNIST finds the edges at the RF of 5, rearranged the max pooling operation which led an accuracy about
-   train = 98.90 & test = 99.20. (Model not OVERFITTING).
-6) Now we want to push 99.20 (test acc) towards our goal 99.4.
-7) Can see image samples being tilted at few degrees, can implement image augmentation to tackle such images.
+    Analysis
+    ========
+    1) Started with randomly placing of dropouts, but the test accuracy didn’t flinch much, so later added dropout to all the layers, 
+       noticing the significant difference in accuracies (test was getting better).
+    2) Following added GAP to reduce the no. of params in the model, reduced approx. to 8k params, where the accuracy was drawn 
+       down but the gap between test & train accuracy was less but test accuracy was far from the expected one (Both train & test were closed to 98%).
+    3) To increase the params, added a layer after gap to increase the efficiency of the model. 
+    4) Since MNIST finds the edges at the RF of 5, rearranged the max pooling operation which led an accuracy about
+       train = 98.90 & test = 99.20. (Model not OVERFITTING).
+    6) Now we want to push 99.20 (test acc) towards our goal 99.4.
+    7) Can see image samples being tilted at few degrees, can implement image augmentation to tackle such images.
 
+
+| Operation | Kernel | Padding | Stride | Jin | Nin | Nout | Rin| Rout | Jout |
+|-----------|--------|---------|--------|-----|-----|------|----|----- | -----|
+| CONV1     |   3    |    0    |    1   |  1  |  28 |  26  |  1 |  3   |   1  |
+| CONV2     |   3    |    0    |    1   |  1  |  26 |  24  |  3 |  5   |   1  |
+| MAX       |   2    |    0    |    2   |  1  |  24 |  12  |  5 |  6   |   2  |
+| CONV3     |   3    |    0    |    1   |  2  |  12 |  10  |  6 |  10  |   2  |
+| CONV4     |   1    |    0    |    1   |  2  |  10 |  10  | 10 |  10  |   2  |
+| CONV5     |   3    |    0    |    1   |  2  |  10 |  8   | 10 |  14  |   2  |
+| CONV6     |   3    |    0    |    1   |  2  |  8  |  6   | 14 |  18  |   2  |
+| CONV7     |   3    |    0    |    1   |  2  |  6  |  4   | 18 |  22  |   2  |
+| GAP       |   4    |    0    |    1   |  2  |  4  |  1   | 22 |  28  |   2  |
+| CONV8     |   1    |    0    |    1   |  2  |  1  |  1   | 28 |  28  |   2  |
 
 
 

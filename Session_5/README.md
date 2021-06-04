@@ -62,9 +62,9 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
 
     Results
     ======
-    1) Parameters: 11,364
-    2) Best Train Accuracy: 99.76
-    3) Best Test Accuracy: 99.30
+    1) Parameters: 10,170
+    2) Best Train Accuracy: 99.72
+    3) Best Test Accuracy: 99.22
 
     Analysis
     ========
@@ -73,7 +73,7 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
        The train_acc = 98.89 & test_acc = 98.91, gap seems to be less between them.
     2) After adding Batch norm – Could see a significant increase in both the accuracies test & train. 
        This tells how much powerful batch norm is & now it has accentuated the features by uplifting them.
-       The train_acc = 99.76 & test_acc = 99.30. Seems to be large gap between train & test accuracy which states 
+       The train_acc = 99.72 & test_acc = 99.22. Seems to be large gap between train & test accuracy which states 
        the model is overfitting & in the next steps we can use regularization to penalize.
    
 

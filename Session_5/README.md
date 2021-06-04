@@ -95,10 +95,11 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
 
     Analysis
     ========
-    1) Started with randomly placing of dropouts, but the test accuracy didn’t flinch much, so later added dropout to all the layers, 
-       noticing the significant difference in accuracies (test was getting better).
+    1) Started with randomly placing of dropouts, but the test accuracy didn’t flinch much, so later added dropout to all 
+       the layers, noticing the significant difference in accuracies (test was getting better).
     2) Following added GAP to reduce the no. of params in the model, reduced approx. to 8k params, where the accuracy was drawn 
-       down but the gap between test & train accuracy was less but test accuracy was far from the expected one (Both train & test were closed to 98%).
+       down but the gap between test & train accuracy was less but test accuracy was far from the expected one 
+       (Both train & test were closed to 98%).
     3) To increase the params, added a layer after gap to increase the efficiency of the model. 
     4) Since MNIST finds the edges at the RF of 5, rearranged the max pooling operation which led an accuracy about
        train = 98.90 & test = 99.20. (Model not OVERFITTING).
@@ -120,6 +121,27 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
 | CONV8     |   1    |    0    |    1   |  2  |  1  |  1   | 28 |  28  |   2  |
 
 
+4_Image_augmentation_LR
+------------------------
+
+    Target
+    ======
+    1) Add rotation in between the range of 5 to 7deg
+    2) Change or tweak learning rate
+    3) Add LR Scheduler
+
+    Results
+    =======
+    1) Parameters: 9924
+    2) Best Train Accuracy: 99.06
+    3) Best Test Accuracy: 99.45
+
+    Analysis
+    1)	Started with 5deg rotation following on to 6 & 7, checking how it would change the train & test accuracies, 
+        6deg fitted well & yielded an accuracy closer to our expected one. The train = 98.84 & test = 99.34. 
+        since test data had few of these images which had their rotation w.r.t train dataset.
+    2)	Tweaking learning rate with LR scheduler – played around with different learning rates & used LR scheduler, 
+        by tweaking the step size was giving good results & was effective at every 5th epoch (step size) reducing the LR by 10th.
 
 
 

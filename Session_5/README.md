@@ -138,6 +138,90 @@ This assignment objective was to achieve test accuracy as 99.4% consistently in 
        since test data had few of these images which had their rotation w.r.t train dataset.
     2) Tweaking learning rate with LR scheduler – played around with different learning rates & used LR scheduler, 
        by tweaking the step size was giving good results & was effective at every 5th epoch (step size) reducing the LR by 10th.
+       
+       
+Training log of Final model
+===========================
+
+0%|          | 0/469 [00:00<?, ?it/s]EPOCH: 0
+Loss=0.1549980491399765 Batch_id=468 Accuracy=91.73: 100%|██████████| 469/469 [00:19<00:00, 23.48it/s]
+  0%|          | 0/469 [00:00<?, ?it/s]
+Test set: Average loss: 0.0666, Accuracy: 9787/10000 (97.87%)
+
+EPOCH: 1
+Loss=0.0955740213394165 Batch_id=468 Accuracy=97.86: 100%|██████████| 469/469 [00:20<00:00, 23.20it/s]
+  0%|          | 0/469 [00:00<?, ?it/s]
+Test set: Average loss: 0.0303, Accuracy: 9908/10000 (99.08%)
+
+EPOCH: 2
+Loss=0.09216540306806564 Batch_id=468 Accuracy=98.14: 100%|██████████| 469/469 [00:20<00:00, 23.02it/s]
+  0%|          | 0/469 [00:00<?, ?it/s]
+Test set: Average loss: 0.0241, Accuracy: 9929/10000 (99.29%)
+
+EPOCH: 3
+Loss=0.030672185122966766 Batch_id=468 Accuracy=98.49: 100%|██████████| 469/469 [00:20<00:00, 23.16it/s]
+  0%|          | 0/469 [00:00<?, ?it/s]
+Test set: Average loss: 0.0310, Accuracy: 9902/10000 (99.02%)
+
+EPOCH: 4
+Loss=0.02458699233829975 Batch_id=468 Accuracy=98.56: 100%|██████████| 469/469 [00:20<00:00, 23.34it/s]
+  0%|          | 0/469 [00:00<?, ?it/s]
+Test set: Average loss: 0.0237, Accuracy: 9924/10000 (99.24%)
+
+EPOCH: 5
+Loss=0.014227130450308323 Batch_id=468 Accuracy=98.86: 100%|██████████| 469/469 [00:20<00:00, 22.97it/s]
+  0%|          | 0/469 [00:00<?, ?it/s]
+Test set: Average loss: 0.0212, Accuracy: 9933/10000 (99.33%)
+
+EPOCH: 6
+Loss=0.02171242982149124 Batch_id=468 Accuracy=98.91: 100%|██████████| 469/469 [00:20<00:00, 22.92it/s]
+  0%|          | 0/469 [00:00<?, ?it/s]
+Test set: Average loss: 0.0202, Accuracy: 9936/10000 (99.36%)
+
+EPOCH: 7
+Loss=0.015017934143543243 Batch_id=468 Accuracy=98.92: 100%|██████████| 469/469 [00:20<00:00, 23.05it/s]
+  0%|          | 0/469 [00:00<?, ?it/s]
+Test set: Average loss: 0.0195, Accuracy: 9940/10000 (99.40%)
+
+EPOCH: 8
+Loss=0.005460837855935097 Batch_id=468 Accuracy=98.96: 100%|██████████| 469/469 [00:20<00:00, 23.09it/s]
+  0%|          | 0/469 [00:00<?, ?it/s]
+Test set: Average loss: 0.0195, Accuracy: 9940/10000 (99.40%)
+
+EPOCH: 9
+Loss=0.010582496412098408 Batch_id=468 Accuracy=98.96: 100%|██████████| 469/469 [00:20<00:00, 22.95it/s]
+  0%|          | 0/469 [00:00<?, ?it/s]
+Test set: Average loss: 0.0183, Accuracy: 9945/10000 (99.45%)
+
+EPOCH: 10
+Loss=0.01799021102488041 Batch_id=468 Accuracy=99.00: 100%|██████████| 469/469 [00:20<00:00, 23.10it/s]
+  0%|          | 0/469 [00:00<?, ?it/s]
+Test set: Average loss: 0.0180, Accuracy: 9945/10000 (99.45%)
+
+EPOCH: 11
+Loss=0.03414875641465187 Batch_id=468 Accuracy=99.05: 100%|██████████| 469/469 [00:20<00:00, 22.98it/s]
+  0%|          | 0/469 [00:00<?, ?it/s]
+Test set: Average loss: 0.0188, Accuracy: 9944/10000 (99.44%)
+
+EPOCH: 12
+Loss=0.039505813270807266 Batch_id=468 Accuracy=99.06: 100%|██████████| 469/469 [00:20<00:00, 22.81it/s]
+  0%|          | 0/469 [00:00<?, ?it/s]
+Test set: Average loss: 0.0187, Accuracy: 9943/10000 (99.43%)
+
+EPOCH: 13
+Loss=0.02063082717359066 Batch_id=468 Accuracy=99.05: 100%|██████████| 469/469 [00:20<00:00, 23.15it/s]
+  0%|          | 0/469 [00:00<?, ?it/s]
+Test set: Average loss: 0.0190, Accuracy: 9943/10000 (99.43%)
+
+EPOCH: 14
+Loss=0.01143362745642662 Batch_id=468 Accuracy=99.06: 100%|██████████| 469/469 [00:20<00:00, 23.06it/s]
+
+Test set: Average loss: 0.0187, Accuracy: 9943/10000 (99.43%)
+
+
+![chart](https://user-images.githubusercontent.com/47082769/120857398-d987ea80-c59e-11eb-9803-9e1320098e28.png)
+
+
 
 
 

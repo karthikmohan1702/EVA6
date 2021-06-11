@@ -25,18 +25,15 @@
 
 | Normalization/Regularization | Train_acc | Test_acc | L1    | num_groups |
 | ---------------------------- | ----------| ---------| ------| -----------|
-| BatchNorm + L1               |           |          | 0.001 |      -     |
-| Group Norm                   |           |          |    -  |      4     |
-| Layer Norm                   |           |          |    -  |      -     |
+| BatchNorm + L1               |   98.46   |   98.99  | 0.001 |      -     |
+| Group Norm                   |   98.84   |   99.34  |    -  |      4     |
+| Layer Norm                   |   98.83   |   99.35  |    -  |      -     |
 
 
 ### Graphs
 
 
-
-
-
-
+![image](https://user-images.githubusercontent.com/47082769/121750089-5ed44780-cb29-11eb-89f6-78c79369ebdf.png)
 
 
 
@@ -51,9 +48,18 @@ There are different normalization techniques that are performed in the network.
 
 (a) **Batch normalization** - This is one of the most commonly used normalization technique in most architectures. It solves the internal covariate shift problem. Covariate means  input features, Covariate shift means that the distribution of the features is different in different parts of the training/test data. So what we mean by **covariant shift** is when you capture a photo of a dog in day & night light conditions, photos taken in bright light where most of the pixels are whitish, which means most of the pixels are nearer to 255 & same holds for dark color pixel value nearer to 0. Since, both photos are different & this type of difference is difficult for an kernel to handle & this is reason we have to make our data normalized in the network. BatchNorm reduces the covariate shift problem & aids in getting a better training model. BN relies on the mini-batch to compute params. Here mean and standard deviation is based on the number of channels for batchnorm, so here we have 4 mean & 4 standard deviation for 3 images.
 
+![image](https://user-images.githubusercontent.com/47082769/121749858-000ece00-cb29-11eb-966e-3b70a7528444.png)
+
 (b) **Layer Normalization** - is performed on the layers of the network instead of the batch size. Total number of mean & standard deviationis dependent on the images we have
 
+![image](https://user-images.githubusercontent.com/47082769/121749930-17e65200-cb29-11eb-8bd6-125f6a62d27d.png)
+![image](https://user-images.githubusercontent.com/47082769/121749965-1f0d6000-cb29-11eb-9235-ba703890134c.png)
+
+
 (c) **Group normalization** - is performed on the groups of channels in the layer of the network.
+
+![image](https://user-images.githubusercontent.com/47082769/121749997-2a608b80-cb29-11eb-9dce-9b460a488b8c.png)
+![image](https://user-images.githubusercontent.com/47082769/121750011-32203000-cb29-11eb-959b-65e7cad41440.png)
 
 
 

@@ -16,8 +16,6 @@
    2. Graph 2: Test/Validation Accuracy for 3 models together
    3. graphs must have proper annotation
 
-5. Find 10 misclassified images for each of the 3 models, and show them as a 5x2 image matrix in 3 separately annotated images.
-
 
 ### CODE
 

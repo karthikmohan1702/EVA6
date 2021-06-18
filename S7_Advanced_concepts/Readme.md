@@ -1,14 +1,14 @@
-## Contents
+# Contents
 
-[Objective](#objective)
+- [Objective](#objective)
 
-[Model Summary](#model-summary)
+- [Model Summary](#model-summary)
 
-[Receptive Field](#receptive-field)
+- [Receptive Field](#receptive-field)
 
-[Training Log](#training-log)
+- [Training Log](#training-log)
 
-[Test Plot](#test-plot)
+- [Test Plot](#test-plot)
 
 
 

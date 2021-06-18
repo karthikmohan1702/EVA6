@@ -7,9 +7,12 @@ import torchvision.transforms as transforms
 def albumentaion_transform():
     train_transform = A.Compose(
         [
-            A.HorizontalFlip(),
-            A.shift_scale_rotate(rotate_limit=15, scale_limit=0.10),
-            # A.Cutout(num_holes=1, max_h_size=16, max_w_size=16, always_apply=False),
+            A.HorizontalFlip(p=0.2),
+            A.augmentations.geometric.transforms.ShiftScaleRotate(
+                shift_limit=0.0625,
+                scale_limit=0.1,
+                rotate_limit=10,
+            ),
             A.CoarseDropout(
                 max_holes=1,
                 max_height=16,

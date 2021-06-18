@@ -49,10 +49,10 @@ class cifar10_Net(nn.Module):
         # ---------- BLOCK - 3 - DEPTHWISE-------------------
         self.conv3 = nn.Sequential(
             nn.Conv2d(32, 32, 3, groups=32, padding=1),
+            nn.Conv2d(32, 32, 1),
             nn.BatchNorm2d(32),
             nn.ReLU(),
-            nn.Dropout(dropout_value),
-            nn.Conv2d(32, 32, 1),
+            nn.Dropout(dropout_value),            
             nn.Conv2d(32, 64, 3, padding=1),
             nn.BatchNorm2d(64),
             nn.ReLU(),

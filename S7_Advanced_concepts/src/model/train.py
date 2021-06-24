@@ -1,3 +1,4 @@
+import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from tqdm import tqdm
@@ -61,3 +62,5 @@ def set_train(
             desc=f"Loss={loss.item()} Batch_id={batch_idx} Accuracy={100*correct/processed:0.2f}"
         )
         train_acc.append(100 * correct / processed)
+
+

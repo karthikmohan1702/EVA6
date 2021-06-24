@@ -191,5 +191,6 @@ Misclassified Images
 
 References
 ==========
-- https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_std_mean.py
+
+- Mean & std calc = https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_std_mean.py
 

@@ -3,7 +3,7 @@ import torchvision
 from torchvision import datasets
 
 
-def mnist_dataset(train_transforms, test_transforms):
+def get_mnist_dataset(train_transforms, test_transforms):
     train = datasets.MNIST(
         "./data", train=True, download=True, transform=train_transforms
     )
@@ -13,7 +13,7 @@ def mnist_dataset(train_transforms, test_transforms):
     return train, test
 
 
-class cifar10_dataset(torchvision.datasets.CIFAR10):
+class get_cifar10_dataset(torchvision.datasets.CIFAR10):
     def __init__(
         self, root="~/data/cifar10", train=True, download=True, transform=None
     ):
@@ -23,8 +23,8 @@ class cifar10_dataset(torchvision.datasets.CIFAR10):
         image, label = self.data[index], self.targets[index]
 
         if self.transform is not None:
-            transformed = self.transform(image=image)
-            image = transformed["image"]
+            augmentations = self.transform(image=image)
+            image = augmentations["image"]
 
         return image, label
 
@@ -41,9 +41,3 @@ def train_test_loader(trainset, testset, batch_size):
     return train_loader, test_loader
 
 
-def dummy_loader(sample_dataset, batch_size):
-    data_loader = torch.utils.data.DataLoader(
-        sample_dataset, batch_size=batch_size, shuffle=True, num_workers=2
-    )
-
-    return data_loader

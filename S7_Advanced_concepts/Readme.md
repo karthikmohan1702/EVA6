@@ -4,11 +4,15 @@
 
 - [Model Summary](#model-summary)
 
-- [Receptive Field](#receptive-field)
+- [Receptive Field Calculation](#receptive-field-calculation)
 
 - [Training Log](#training-log)
 
 - [Test Plot](#test-plot)
+
+- [Misclassified Images](#misclassified-images)
+
+- [References](#references) 
 
 
 
@@ -36,8 +40,8 @@ _Model is placed here_ [cifar10_model!](https://github.com/karthikmohan1702/EVA6
 
 
 
-Receptive Field
-===============
+Receptive Field Calculation
+===========================
 
 | Operation | Kernel | Padding | Stride | Dilation | Jin | Nin | Nout | Rin | Rout | Jout |
 |-----------|--------|---------|--------|----------|-----|-----|------|-----| -----|------|
@@ -570,4 +574,16 @@ Test Plot
 
 ![image](https://user-images.githubusercontent.com/47082769/122605432-0fe06200-d095-11eb-87eb-890b61c051de.png)
 
+
+
+Misclassified Images
+====================
+
+
+
+
+
+References
+==========
+- https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_std_mean.py
 

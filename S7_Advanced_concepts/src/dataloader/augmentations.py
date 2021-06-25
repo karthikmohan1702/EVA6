@@ -5,7 +5,7 @@ import torchvision.transforms as transforms
 
 
 
-def albumentaion_transform(mean:list, std:list):
+def albumentaion_transform(mean, std):
     train_transform = A.Compose(
         [
             A.HorizontalFlip(p=0.2),

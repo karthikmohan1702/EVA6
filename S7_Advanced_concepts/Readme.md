@@ -1,4 +1,4 @@
-# Contents
+## Contents
 
 - [Objective](#objective)
 - [Data Analysis](#data-analysis) 
@@ -55,8 +55,8 @@
 [0.2470356971025467, 0.24348768591880798, 0.26158225536346436]
 
 
-Model Summary
-=============
+## Model Summary
+
 
 _Model is placed here_ [cifar10_model!](https://github.com/karthikmohan1702/EVA6/blob/0b80085dd087748ac31d8168615c578923fd3eb7/S7_Advanced_concepts/src/model/cifar10_model.py)
 
@@ -64,8 +64,8 @@ _Model is placed here_ [cifar10_model!](https://github.com/karthikmohan1702/EVA6
 
 
 
-Receptive Field Calculation
-===========================
+## Receptive Field Calculation
+
 
 | Operation | Kernel | Padding | Stride | Dilation | Jin | Nin | Nout | Rin | Rout | Jout |
 |-----------|--------|---------|--------|----------|-----|-----|------|-----| -----|------|
@@ -85,8 +85,8 @@ Receptive Field Calculation
 |  CONV14   |    3   |    1    |    1   |     1    |  4  |  4  |  4   |  53 |**61**|  4   |
 
 
-Training Log
-============
+## Training Log
+
 Showing only last **20 epochs accuracy**. To view the whole training log, you can navigate [here](https://github.com/karthikmohan1702/EVA6/blob/main/S7_Advanced_concepts/S7_Dilated_Depthwise.ipynb) 
 
       EPOCH: 80
@@ -193,21 +193,21 @@ Showing only last **20 epochs accuracy**. To view the whole training log, you ca
 
 
 
-Test Plot
-=========
+## Test Plot
+
 
 ![image](https://user-images.githubusercontent.com/47082769/122605432-0fe06200-d095-11eb-87eb-890b61c051de.png)
 
 
 
-Misclassified Images
-====================
+## Misclassified Images
+
 
 ![image](https://user-images.githubusercontent.com/47082769/123330930-41a56d00-d55c-11eb-8f24-54d91a6765ac.png)
 
 
-References
-==========
+## References
+
 
 - Mean & std calc = https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_std_mean.py
 

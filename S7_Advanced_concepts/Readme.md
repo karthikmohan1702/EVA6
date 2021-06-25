@@ -1,25 +1,18 @@
 # Contents
 
 - [Objective](#objective)
-
 - [Data Analysis](#data-analysis) 
-
 - [Model Summary](#model-summary)
-
 - [Receptive Field Calculation](#receptive-field-calculation)
-
 - [Training Log](#training-log)
-
 - [Test Plot](#test-plot)
-
 - [Misclassified Images](#misclassified-images)
-
 - [References](#references) 
 
 
 
-Objective
-=========
+## Objective
+
 
 1) Code must use device "GPU"
 2) Architecture should be of C1C2C3C40 configuration (No MaxPooling, but 3 3x3 layers with stride of 2 instead)
@@ -33,8 +26,8 @@ Objective
 7) Achieve 85% accuracy, as many epochs as you want. Total Params to be less than 200k
 
 
-Data Analysis
-=============
+## Data Analysis
+
 
 - **About Dataset** - The CIFAR-10 dataset ( Canadian Institute For Advanced Research) which contains 10 classes of images mainly ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck'] & there are 50000 training images and 10000 test images.
 

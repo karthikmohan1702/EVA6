@@ -35,7 +35,30 @@ Objective
 
 Data Analysis
 =============
+- **About Dataset** - The CIFAR-10 dataset ( Canadian Institute For Advanced Research) which contains 10 classes of images mainly ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck'] & there are 50000 training images and 10000 test images.
 
+![image](https://user-images.githubusercontent.com/47082769/123464083-006b9680-d60a-11eb-8ad6-bf80d7b3cb0c.png)
+
+
+- **Sample images in the dataset along with their labels**
+
+![image](https://user-images.githubusercontent.com/47082769/123464209-28f39080-d60a-11eb-8acf-91f5028a923c.png)
+
+- **Checking distribution of classes in Train & Test dataset**
+
+![image](https://user-images.githubusercontent.com/47082769/123464595-a7503280-d60a-11eb-9d36-4a3cac351752.png)
+
+- **Checking distribution of image sizes in Train & Test dataset**
+
+![image](https://user-images.githubusercontent.com/47082769/123464717-cea6ff80-d60a-11eb-90fb-d7531eca3d11.png)
+
+- **Mean**
+
+[0.49138519167900085, 0.4821462035179138, 0.44650936126708984]
+
+- **Standard deviation**
+
+[0.2470356971025467, 0.24348768591880798, 0.26158225536346436]
 
 
 Model Summary

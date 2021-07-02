@@ -6,7 +6,7 @@
 - [Training Log](#training-log)
 - [Test Plot](#test-plot)
 - [Misclassified Images](#misclassified-images)
-- [GradCam](#gradcam)
+- [GradCam](#grad-cam)
 - [References](#references) 
 
 

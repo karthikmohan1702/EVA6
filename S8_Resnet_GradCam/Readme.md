@@ -6,6 +6,7 @@
 - [Training Log](#training-log)
 - [Test Plot](#test-plot)
 - [Misclassified Images](#misclassified-images)
+- [GradCam](#gradcam)
 - [References](#references) 
 
 
@@ -152,13 +153,13 @@ Test set: Average loss: 0.0029, Accuracy: 8842/10000 (88.42%)
 ![image](https://user-images.githubusercontent.com/47082769/124327988-675af380-dba6-11eb-914d-ca1a706bfeda.png)
 
 
-
-
-
 ## Misclassified Images
 
+![image](https://user-images.githubusercontent.com/47082769/124328057-85c0ef00-dba6-11eb-8fc3-d9ebf7bd125a.png)
 
+## Grad Cam
 
+![image](https://user-images.githubusercontent.com/47082769/124328162-bd2f9b80-dba6-11eb-9f29-1af89159ae01.png)
 
 
 ## References

@@ -159,6 +159,24 @@ Test set: Average loss: 0.0029, Accuracy: 8842/10000 (88.42%)
 
 ## Grad Cam
 
+![image](https://user-images.githubusercontent.com/47082769/124328394-244d5000-dba7-11eb-8012-e5c1cecee4dd.png)
+
+![image](https://user-images.githubusercontent.com/47082769/124328380-1e576f00-dba7-11eb-9437-c897ac6284de.png)
+
+![image](https://user-images.githubusercontent.com/47082769/124328359-18fa2480-dba7-11eb-9d18-721b56d27b68.png)
+
+![image](https://user-images.githubusercontent.com/47082769/124328349-14ce0700-dba7-11eb-9dc6-4fefd0d6b072.png)
+
+![image](https://user-images.githubusercontent.com/47082769/124328333-0e3f8f80-dba7-11eb-87db-690960699ab9.png)
+
+![image](https://user-images.githubusercontent.com/47082769/124328298-fc5dec80-dba6-11eb-91ba-ad80fcddf989.png)
+
+![image](https://user-images.githubusercontent.com/47082769/124328284-f536de80-dba6-11eb-8987-1c5f088bfec3.png)
+
+![image](https://user-images.githubusercontent.com/47082769/124328271-ed773a00-dba6-11eb-93b0-8365f380c2cb.png)
+
+![image](https://user-images.githubusercontent.com/47082769/124328218-d9cbd380-dba6-11eb-8926-bc3a6e77bbd1.png)
+
 ![image](https://user-images.githubusercontent.com/47082769/124328162-bd2f9b80-dba6-11eb-9f29-1af89159ae01.png)
 
 

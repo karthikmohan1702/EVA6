@@ -96,7 +96,48 @@
 
 _Model is placed here_ [custom_resnet_model!](https://github.com/karthikmohan1702/vision_wrapper/blob/main/model/custom_resnet.py)
 
-
+            ----------------------------------------------------------------
+                    Layer (type)               Output Shape         Param #
+            ================================================================
+                        Conv2d-1           [-1, 64, 32, 32]           1,792
+                   BatchNorm2d-2           [-1, 64, 32, 32]             128
+                          ReLU-3           [-1, 64, 32, 32]               0
+                        Conv2d-4          [-1, 128, 32, 32]          73,856
+                     MaxPool2d-5          [-1, 128, 16, 16]               0
+                   BatchNorm2d-6          [-1, 128, 16, 16]             256
+                          ReLU-7          [-1, 128, 16, 16]               0
+                        Conv2d-8          [-1, 128, 16, 16]         147,584
+                   BatchNorm2d-9          [-1, 128, 16, 16]             256
+                         ReLU-10          [-1, 128, 16, 16]               0
+                       Conv2d-11          [-1, 128, 16, 16]         147,584
+                  BatchNorm2d-12          [-1, 128, 16, 16]             256
+                         ReLU-13          [-1, 128, 16, 16]               0
+                       Conv2d-14          [-1, 256, 16, 16]         295,168
+                    MaxPool2d-15            [-1, 256, 8, 8]               0
+                  BatchNorm2d-16            [-1, 256, 8, 8]             512
+                         ReLU-17            [-1, 256, 8, 8]               0
+                       Conv2d-18            [-1, 512, 8, 8]       1,180,160
+                    MaxPool2d-19            [-1, 512, 4, 4]               0
+                  BatchNorm2d-20            [-1, 512, 4, 4]           1,024
+                         ReLU-21            [-1, 512, 4, 4]               0
+                       Conv2d-22            [-1, 512, 4, 4]       2,359,808
+                  BatchNorm2d-23            [-1, 512, 4, 4]           1,024
+                         ReLU-24            [-1, 512, 4, 4]               0
+                       Conv2d-25            [-1, 512, 4, 4]       2,359,808
+                  BatchNorm2d-26            [-1, 512, 4, 4]           1,024
+                         ReLU-27            [-1, 512, 4, 4]               0
+                    MaxPool2d-28            [-1, 512, 1, 1]               0
+                       Linear-29                   [-1, 10]           5,130
+            ================================================================
+            Total params: 6,575,370
+            Trainable params: 6,575,370
+            Non-trainable params: 0
+            ----------------------------------------------------------------
+            Input size (MB): 0.01
+            Forward/backward pass size (MB): 6.44
+            Params size (MB): 25.08
+            Estimated Total Size (MB): 31.54
+----------------------------------------------------------------
 
 ## Training Log
 Showing only last **5 epochs accuracy**. To view the whole training log, you can navigate [here]() 

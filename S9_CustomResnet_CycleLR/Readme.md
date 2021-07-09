@@ -140,19 +140,42 @@ _Model is placed here_ [custom_resnet_model!](https://github.com/karthikmohan170
 ----------------------------------------------------------------
 
 ## Training Log
-Showing only last **5 epochs accuracy**. To view the whole training log, you can navigate [here]() 
+Showing only last **5 epochs accuracy**. To view the whole training log, you can navigate [here](https://github.com/karthikmohan1702/EVA6/blob/main/S9_CustomResnet_CycleLR/S9_Resnet_LRFinder.ipynb) 
 
+      EPOCH: 19
+      Loss=0.4203657805919647 Batch_id=97 Accuracy=85.63: 100%|██████████| 98/98 [00:28<00:00,  3.42it/s]
+        0%|          | 0/98 [00:00<?, ?it/s]
+      Test set: Average loss: 0.0008, Accuracy: 8716/10000 (87.16%)
 
+      EPOCH: 20
+      Loss=0.457254558801651 Batch_id=97 Accuracy=86.08: 100%|██████████| 98/98 [00:28<00:00,  3.38it/s]
+        0%|          | 0/98 [00:00<?, ?it/s]
+      Test set: Average loss: 0.0008, Accuracy: 8751/10000 (87.51%)
+
+      EPOCH: 21
+      Loss=0.41286978125572205 Batch_id=97 Accuracy=86.06: 100%|██████████| 98/98 [00:28<00:00,  3.40it/s]
+        0%|          | 0/98 [00:00<?, ?it/s]
+      Test set: Average loss: 0.0008, Accuracy: 8722/10000 (87.22%)
+
+      EPOCH: 22
+      Loss=0.3912380635738373 Batch_id=97 Accuracy=86.43: 100%|██████████| 98/98 [00:29<00:00,  3.37it/s]
+        0%|          | 0/98 [00:00<?, ?it/s]
+      Test set: Average loss: 0.0008, Accuracy: 8701/10000 (87.01%)
+
+      EPOCH: 23
+      Loss=0.4123222827911377 Batch_id=97 Accuracy=86.81: 100%|██████████| 98/98 [00:28<00:00,  3.39it/s]
+
+      Test set: Average loss: 0.0009, Accuracy: 8563/10000 (85.63%)
 
 
 ## Test Plot
 
-
+![image](https://user-images.githubusercontent.com/47082769/125141530-eade8c80-e132-11eb-963e-860a18116c86.png)
 
 
 ## Misclassified Images
 
-
+![image](https://user-images.githubusercontent.com/47082769/125141545-f5992180-e132-11eb-852a-252510bd9a33.png)
 
 
 

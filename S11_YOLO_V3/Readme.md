@@ -1,9 +1,8 @@
 ## Contents
 
 - [Objective](#objective)
-- [Part1](#part1)
-- [Part2](#part2)
-- [Output](#output) 
+- [Part 1](#part-1)
+- [Part 2](#part-2) 
 - [References](#references) 
 
 
@@ -15,8 +14,6 @@
 1. Run this code [OpenCV Yolo](https://pysource.com/2019/06/27/yolo-object-detection-using-opencv-with-python/) on your laptop or Colab.
 2. Take an image of yourself, holding another object which is there in COCO data set (search for COCO classes to learn). 
 3. Run this image through the code above. 
-4. Upload the link to GitHub implementation of this
-5. Upload the annotated image by YOLO. 
 
 **Part 2 - Training Custom Dataset on Colab for YoloV3**
 
@@ -40,10 +37,31 @@
     - Also run the model on 16 images that you have collected (4 for each class)
 
 
-## Output
+## Part 1
+
+**Opencv result**
+
+- Jupyter Notebook to run the model is placed [here](https://github.com/karthikmohan1702/EVA6/blob/main/S11_YOLO_V3/yolo_opencv/YOLO_opencv.ipynb)
+
+![yolo_opencv_op](https://user-images.githubusercontent.com/47082769/127197197-255202ee-4440-4250-8ee3-5b3e6bf1db9e.png)
 
 
+## Part 2
+
+- YoloV3 model istrained on the Industrial equipment dataset classes:
+      - Hardhat
+      - Boots
+      - Mask
+      - Vest
+- Jupyter Notebook to run the model is placed [here](https://github.com/karthikmohan1702/EVA6/blob/main/S11_YOLO_V3/yolov3/YoloV3Sample.ipynb)
+- YoloV3 was implemented on the video & its output is placed [here](https://github.com/karthikmohan1702/EVA6/blob/main/S11_YOLO_V3/yolov3/yolo3_vid_op.mp4)
+- Also result is uploaded on [Youtube]()
 
 ## References
+
+- https://pysource.com/2019/06/27/yolo-object-detection-using-opencv-with-python/
+- https://github.com/theschoolofai/YoloV3
+- https://drive.google.com/file/d/1sVSAJgmOhZk6UG7EzmlRjXfkzPxmpmLy/view
+- https://en.wikibooks.org/wiki/FFMPEG_An_Intermediate_Guide/image_sequence
 
 

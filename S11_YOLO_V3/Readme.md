@@ -58,9 +58,11 @@
 - Also result is uploaded on [Youtube](https://www.youtube.com/watch?v=cSzYJinIFCE)
 - Inference on image
 
-        - ![image](https://user-images.githubusercontent.com/47082769/127200278-0096e5b4-8c5d-4665-88bd-729c1aaf2d47.png)
-        - ![image](https://user-images.githubusercontent.com/47082769/127200308-bd422bac-c297-4105-bb27-cd45eec78a44.png)
-        - ![image](https://user-images.githubusercontent.com/47082769/127200330-a1157d4d-5d5f-45a9-a377-b1050feb55d9.png)
+![image](https://user-images.githubusercontent.com/47082769/127200278-0096e5b4-8c5d-4665-88bd-729c1aaf2d47.png)
+
+![image](https://user-images.githubusercontent.com/47082769/127200308-bd422bac-c297-4105-bb27-cd45eec78a44.png)
+
+![image](https://user-images.githubusercontent.com/47082769/127200330-a1157d4d-5d5f-45a9-a377-b1050feb55d9.png)
 
 
 ## References

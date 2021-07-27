@@ -41,7 +41,7 @@
 
 **Opencv result**
 
-- Jupyter Notebook to run the model is placed [here](https://github.com/karthikmohan1702/EVA6/blob/main/S11_YOLO_V3/yolo_opencv/YOLO_opencv.ipynb)
+- Jupyter Notebook to run the model is placed [here](https://github.com/karthikmohan1702/EVA6/blob/main/S11_YOLO_V3/yolo_opencv/)
 
 ![yolo_opencv_op](https://user-images.githubusercontent.com/47082769/127197197-255202ee-4440-4250-8ee3-5b3e6bf1db9e.png)
 
@@ -53,8 +53,8 @@
       - Boots
       - Mask
       - Vest
-- Jupyter Notebook to run the model is placed [here](https://github.com/karthikmohan1702/EVA6/blob/main/S11_YOLO_V3/yolov3/YoloV3Sample.ipynb)
-- YoloV3 was implemented on the video & its output is placed [here](https://github.com/karthikmohan1702/EVA6/blob/main/S11_YOLO_V3/yolov3/yolo3_vid_op.mp4)
+- Jupyter Notebook to run the model is placed [here](https://github.com/karthikmohan1702/EVA6/blob/main/S11_YOLO_V3/yolov3/)
+- YoloV3 was implemented on the video & its output is placed [here](https://github.com/karthikmohan1702/EVA6/blob/main/S11_YOLO_V3/yolov3/)
 - Also result is uploaded on [Youtube]()
 
 ## References

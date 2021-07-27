@@ -55,7 +55,7 @@
       - Vest
 - Jupyter Notebook to run the model is placed [here](https://github.com/karthikmohan1702/EVA6/blob/main/S11_YOLO_V3/yolov3/)
 - YoloV3 was implemented on the video & its output is placed [here](https://github.com/karthikmohan1702/EVA6/blob/main/S11_YOLO_V3/yolov3/)
-- Also result is uploaded on [Youtube]()
+- Also result is uploaded on [Youtube](https://www.youtube.com/watch?v=cSzYJinIFCE)
 
 ## References
 

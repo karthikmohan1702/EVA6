@@ -58,11 +58,36 @@
 - Also result is uploaded on [Youtube](https://www.youtube.com/watch?v=cSzYJinIFCE)
 - Inference on image
 
-![image](https://user-images.githubusercontent.com/47082769/127200278-0096e5b4-8c5d-4665-88bd-729c1aaf2d47.png)
+![image](https://user-images.githubusercontent.com/47082769/127312942-64f1196f-761c-44d6-8a48-50e701116f50.png)
 
-![image](https://user-images.githubusercontent.com/47082769/127200308-bd422bac-c297-4105-bb27-cd45eec78a44.png)
+![image](https://user-images.githubusercontent.com/47082769/127312956-93f7ee26-7326-42df-bcee-9c8d5b08e958.png)
 
-![image](https://user-images.githubusercontent.com/47082769/127200330-a1157d4d-5d5f-45a9-a377-b1050feb55d9.png)
+![image](https://user-images.githubusercontent.com/47082769/127312970-efaeb08e-160f-4c5d-a697-581c0100ab70.png)
+
+![image](https://user-images.githubusercontent.com/47082769/127312987-d1e34170-4517-46e3-807c-8adb56138dcb.png)
+
+![image](https://user-images.githubusercontent.com/47082769/127313048-e7510904-34b3-42ad-99ad-2df8b0538aa8.png)
+
+![image](https://user-images.githubusercontent.com/47082769/127313068-a8593fe6-b3a1-4db8-891d-8d6942bfa3c9.png)
+
+![image](https://user-images.githubusercontent.com/47082769/127313091-7be8a055-da65-4e54-8ec6-e36977641050.png)
+
+![image](https://user-images.githubusercontent.com/47082769/127313115-42555871-6679-4d9d-a110-f94a91e8c5bf.png)
+
+![image](https://user-images.githubusercontent.com/47082769/127313140-3cdcfa40-07b8-4b57-8cf8-bec116ce7b7a.png)
+
+![image](https://user-images.githubusercontent.com/47082769/127313160-7028b525-8772-44fa-853d-adca39fdb8a2.png)
+
+![image](https://user-images.githubusercontent.com/47082769/127313176-63261da9-2790-4fa5-b589-774a1da3aed6.png)
+
+![image](https://user-images.githubusercontent.com/47082769/127313182-ca38f879-2dcb-4b63-9909-633967cbb678.png)
+
+![image](https://user-images.githubusercontent.com/47082769/127313194-d05fa0fd-3a45-41df-ae67-e7ca45e9b50c.png)
+
+![image](https://user-images.githubusercontent.com/47082769/127313203-7c7777eb-7344-40cb-a2f9-4563f8a00ac8.png)
+
+![image](https://user-images.githubusercontent.com/47082769/127313216-fa075b63-5136-41b5-ac38-b7175d6913f0.png)
+
 
 
 ## References

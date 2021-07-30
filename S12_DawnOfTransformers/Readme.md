@@ -12,11 +12,13 @@ Architecture
 
 ![image](https://user-images.githubusercontent.com/47082769/127672712-d4eb0847-cb9c-478a-8278-084ef9649bb7.png)
 
+The need for the spatial transformers was the limitations that CNN had. Since CNN is translational, rotational invariant because of the max pooling operation that is being performed in the network. In other words, if we change slightly translate or rotate the input image, then the CNN can capture it. But when the invariances are huge then the CNN model gets confused about the object. So we wanted a algorithm or a logic that solves this issue & this is were Spatial transformation comes in. 
+
 Spatial transformer is a combination of 3 components:
 
-1. Localization network
-2. Grid generator
-3. Sampler
+1. Localization network - takes the input feature map, and through a number of hidden layers outputs the parameters of the spatial transformation.
+2. Grid generator - Next the predicted transformation parameters from the localization network are used to create a sampling grid, which is a set of points where the input map should be sampled to produce the transformed output.
+3. Sampler - Feature map & grid are taken as inputs & then produces the sampled output map.
 
 ### Model
 

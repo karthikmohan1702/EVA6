@@ -53,7 +53,7 @@ The model architecture from [here](https://brsoff.github.io/tutorials/intermedia
 
 ### Visualizing Spatial Transformer Network Results
 
-![image](https://user-images.githubusercontent.com/47082769/127672255-e451803f-7c9e-4ac3-a77e-91ec981724d5.png)
+![image](https://user-images.githubusercontent.com/47082769/127683367-1b8aa81d-c28e-4977-a11b-59d6959d4847.png)
 
 
 

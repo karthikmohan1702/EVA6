@@ -6,7 +6,7 @@
 - [References](#references) 
 
 
-## Spatial Transformer
+### Spatial Transformer
 
 Architecture
 
@@ -18,7 +18,7 @@ Spatial transformer is a combination of 3 components:
 2. Grid generator
 3. Sampler
 
-## Model
+### Model
 
 The model architecture from [here](https://brsoff.github.io/tutorials/intermediate/spatial_transformer_tutorial.html) is based on the MNIST dataset & its modified to work with CIFAR10 dataset which has color images. 
 
@@ -51,13 +51,13 @@ The model architecture from [here](https://brsoff.github.io/tutorials/intermedia
 
             
 
-## Visualizing Spatial Transformer Network Results
+### Visualizing Spatial Transformer Network Results
 
 ![image](https://user-images.githubusercontent.com/47082769/127672255-e451803f-7c9e-4ac3-a77e-91ec981724d5.png)
 
 
 
-## References
+### References
 
 - https://brsoff.github.io/tutorials/intermediate/spatial_transformer_tutorial.html
 - https://arxiv.org/pdf/1506.02025v3.pdf

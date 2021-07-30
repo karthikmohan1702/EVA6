@@ -22,6 +22,8 @@ Spatial transformer is a combination of 3 components:
 
 ### Model
 
+Colab Notebook link = https://github.com/karthikmohan1702/EVA6/blob/main/S12_DawnOfTransformers/Spatial_Transformer.ipynb
+
 The model architecture from [here](https://brsoff.github.io/tutorials/intermediate/spatial_transformer_tutorial.html) is based on the MNIST dataset & its modified to work with CIFAR10 dataset which has color images. 
 
       ----------------------------------------------------------------

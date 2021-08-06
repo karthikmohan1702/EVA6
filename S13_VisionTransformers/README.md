@@ -25,6 +25,11 @@ Showing last 5 training log
 
 ### Visual Transformers
 
+Transformers are a evolution in the computer vision. They are designed for text or NLP world, but vision transformer are designed to replace the CNN operations. In NLP we pass tokens as inputs to the transformer since these inputs will be in the sequence whereas in vision space, we pass patches from an image.
+
+Positional information of the patches of the images is retained by providing this info to the network as a positional embedding along with the patch embedding. A learnable class parameter is also passed such that for each sequence & position of the image, the class is assigned which helps in prediction of the input image.
+
+The transformer encoder module comprises 
 
 
 

@@ -82,7 +82,39 @@ for eg: if we have a batch of image which is of shape (32-batchsize, 3-channels,
             x = self.projection(pixel_values).flatten(2).transpose(1, 2)
             return x
 
- 
+Here in the below class creates embeddings which then can feeded to ViT, we are creating positional information of the patches of the images as a positional embedding along with the patch embedding from the Patch embedding class. A learnable class parameter is also passed such that for each sequence & position of the image, the class is assigned which helps in prediction of the input image.
+
+    class ViTEmbeddings(nn.Module):
+        """
+        Construct the CLS token, position and patch embeddings.
+
+        """
+
+        def __init__(self, config):
+            super().__init__()
+
+            self.cls_token = nn.Parameter(torch.zeros(1, 1, config.hidden_size))
+            self.patch_embeddings = PatchEmbeddings(
+                image_size=config.image_size,
+                patch_size=config.patch_size,
+                num_channels=config.num_channels,
+                embed_dim=config.hidden_size,
+            )
+            num_patches = self.patch_embeddings.num_patches
+            self.position_embeddings = nn.Parameter(torch.zeros(1, num_patches + 1, config.hidden_size))
+            self.dropout = nn.Dropout(config.hidden_dropout_prob)
+
+        def forward(self, pixel_values):
+            batch_size = pixel_values.shape[0]
+            embeddings = self.patch_embeddings(pixel_values)
+
+            cls_tokens = self.cls_token.expand(batch_size, -1, -1)
+            embeddings = torch.cat((cls_tokens, embeddings), dim=1)
+            embeddings = embeddings + self.position_embeddings
+            embeddings = self.dropout(embeddings)
+            return embeddings
+
+
 
 
 

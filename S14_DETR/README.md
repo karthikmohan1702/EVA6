@@ -1,13 +1,13 @@
 ## Contents
 
 - [Objective](#objective)
-- [References](#references) 
 - [DETR](#detr)
 - [Encoder Decoder Architecture](#encoder-decoder-architecture)
 - [Bipartite Loss](#bipartite-loss)
 - [Object Queries](#object-queries)
 - [Model monitoring metrics](#model-monitoring-metrics)
 - [Model results](#model-results)
+- [References](#references) 
 
 
 ### Objective

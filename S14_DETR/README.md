@@ -6,6 +6,7 @@
 - [Encoder Decoder Architecture](#encoder-decoder-architecture)
 - [Bipartite Loss](#bipartite-loss)
 - [Object Queries](#object-queries)
+- [Model monitoring metrics](#model-monitoring-metrics)
 - [Model results](#model-results)
 
 
@@ -52,9 +53,27 @@ By performing one-vs-one matching, its able to significantly reduce low-quality 
 An intuitive way of understanding the object queries is by imagining that each object query is a person. And each person can ask the, via attention, about a certain region of the image. So one object query will always ask about what is in the center of an image, and another will always ask about what is on the bottom left, and so on
 
 
+### Model monitoring metrics
+
+Model was trained for only **10 epochs**
+
+1. Mean Average Precision (mAP)
+![image](https://user-images.githubusercontent.com/47082769/129409703-662b732d-323b-4778-a6ce-9387d818e7d1.png)
+
+
+2. Classification, Bounding box loss
+![image](https://user-images.githubusercontent.com/47082769/129410236-a904b9b6-fc58-4e14-b818-6e17ea2a091d.png)
+
+
+3. Class, Cardinality error
+![image](https://user-images.githubusercontent.com/47082769/129410302-5055c3f3-6311-4056-8141-1e2454a0fd68.png)
+
+
 ### Model results
 
+![image](https://user-images.githubusercontent.com/47082769/129409311-e6034a80-108b-4943-82d8-891606ad7add.png)
 
+![image](https://user-images.githubusercontent.com/47082769/129409363-354c2024-005e-4655-bf92-bd827a3dfd89.png)
 
 
 ### References
@@ -67,6 +86,7 @@ An intuitive way of understanding the object queries is by imagining that each o
 - https://ai.facebook.com/blog/end-to-end-object-detection-with-transformers/
 - https://medium.com/analytics-vidhya/end-to-end-object-detection-with-transformers-detr-by-facebook-ai-833f4086280a
 - https://medium.com/swlh/object-detection-with-transformers-437217a3d62e
+- https://www.cellstrat.com/2020/08/07/end-to-end-object-detection-with-transformers/
 
 
 
